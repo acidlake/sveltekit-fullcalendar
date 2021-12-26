@@ -1,0 +1,35 @@
+{
+	"name": "sveltekit-fullcalendar",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "svelte-kit dev --host=0.0.0.0 --port=4000",
+		"build": "svelte-kit build",
+		"preview": "svelte-kit preview"
+	},
+	"devDependencies": {
+		"@fullcalendar/core": "^5.10.0",
+		"@fullcalendar/daygrid": "^5.10.0",
+		"@fullcalendar/resource-timeline": "^5.10.0",
+		"@sveltejs/adapter-netlify": "^1.0.0-next.33",
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-static": "^1.0.0-next.21",
+		"@sveltejs/kit": "next",
+		"autoprefixer": "^10.3.1",
+		"cssnano": "^5.0.6",
+		"postcss": "^8.3.5",
+		"postcss-load-config": "^3.1.0",
+		"prettier": "~2.2.1",
+		"svelte": "^3.34.0",
+		"svelte-fullcalendar": "^1.1.1",
+		"svelte-preprocess": "^4.7.4",
+		"tailwindcss": "2.2.17"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fullcalendar/common": "^5.10.0",
+		"@fullcalendar/core": "^5.10.0",
+		"@fullcalendar/daygrid": "^5.8.0",
+		"@fullcalendar/interaction": "^5.10.0",
+		"@fullcalendar/timegrid": "^5.8.0"
+	}
+}
