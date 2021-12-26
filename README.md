@@ -1,9 +1,12 @@
+## Preview URL
+[Svelte-kit-fullcalendar](https://svelte-kit-fullcalendar.netlify.app/)
 ## Using the Project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
 # clone the project
+git clone https://github.com/acidlake/sveltekit-fullcalendar.git
 
 # install dev dependencies
 pnpm i or npm i
